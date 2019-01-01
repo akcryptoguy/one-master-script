@@ -61,11 +61,17 @@ killswitch
 ### getinfo
 This scriptlet provides basic information about your masternodes which are installed.  Current block, wallet version, and number of current connections.
 
+<p align="center"><img src="/media/getinfo-helium.png" alt="getinfo image"></p>
+
 ### masternodestatus
 This scriptlet provides the same output that you would get if you ran `sudo /usr/local/bin/helium-cli -conf=/etc/masternodes/helium_n1.conf masternode status` but it is one hell of a lot easier to type and it will provide the output from each of your installed masternodes without having to type a separate command for each of them.
 
+<p align="center"><img src="/media/masternodestatus-helium.png" alt="masternodestatus image"></p>
+
 ### checksync
 This scriptlet will let you know the syncing status of your first installed masternode, and automatically update every 10 seconds until the chain is synced.  I use this after first reboot to let me know roughly when the initial chain sync has completed. It will continue to run until either the chain is synced or you terminate the script by pressing CTL+C to stop it.
+
+<p align="center"><img src="/media/checksync-helium.png" alt="checksync image"></p>
 
 ### killswitch
 You shouldn't need to use this one, but if you do, this scriptlet will automatically disable and stop all of your installed masternode instances. This provides the same functionality as running the `sudo systemctl disable helium_n1` and `sudo systemctl stop helium_n1` commands separately. It may be 'undone' by issueing the `activate_masternodes_helium` command.
