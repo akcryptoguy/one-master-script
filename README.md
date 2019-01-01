@@ -10,6 +10,8 @@ Create a new VPS and then SSH into it.  You may use either an RSA key or passwor
 sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
 ```
 
+After the script has completed, it will display on your screen the text which you need to paste into your local wallet's masternode.conf file. Because of formatting between your SSH client and text editor, you may need to format the file a slight amount by making sure that all masternode data for each masternode is contained in one line (this may involve inserting a few backspaces is all). NodeValet.io does a better job at formatting and is easier to use because it handles the formatting for you correctly. If you accidentally reboot the VPS before you copy the text you may locate your fully formed masternode.conf file on the VPS in `/var/tmp/nodevalet/temp/masternode.conf` (please let me know if you think I should add a `cronjob` to automatically delete this file after 24 hours just for security purposes.
+
 # About
 
 A lot of good virtual servers get destroyed every year because they aren't properly secured. With large numbers of Linux newcomers entering the space and setting up masternodes I wanted to create a simple way to secure virtual servers and automatically install the masternodes. This does that.
