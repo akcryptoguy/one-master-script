@@ -1,6 +1,6 @@
 ## <p align="center"> AKcryptoGUY's One Master Script</p>
 
-This VPS Deployment Script script was built in response to the "One Master Script" proposal on the Helium bllockchain and is designed to be run on new VPS deployments to simplify your masternode deployments. It is the perfect fusion between my Server Hardening Script ["Server Hardening Script"](https://github.com/akcryptoguy/vps-harden) and [Nodemaster's VPS Installation Script](https://github.com/masternodes/vps).
+This VPS Deployment Script script was built in response to the ["One Master Script"](https://heliumcha.in/t/one-master-script-server-hardening-and-masternode-installation/133/2) proposal on the Helium bllockchain and is designed to be run on new VPS deployments to simplify your masternode deployments. It is the perfect fusion between my Server Hardening Script ["Server Hardening Script"](https://github.com/akcryptoguy/vps-harden) and [Nodemaster's VPS Installation Script](https://github.com/masternodes/vps).
 
 # About
 
