@@ -4,7 +4,7 @@ This VPS Deployment Script script was built in response to the ["One Master Scri
 
 # Installation
 
-SSH into your VPS and run this command to clone the Github repository and begin installation:
+Create a new VPS and then SSH into it.  You may use either an RSA key or password to sign in, depending on how you created your VPS. Then run this command to clone the Github repository and begin installation:
 
 ```bash 
 sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
@@ -51,7 +51,7 @@ DOGE: DH9Sj3DQNVBaxb6kZBXc6X2MPQjbv7H6oy
 ```
 
 ## The following is a list of popular scriptlets you may run on your VPS
-```
+```bash 
 getinfo
 masternodestatus
 checksync
