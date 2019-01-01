@@ -21,6 +21,16 @@ When those security features are installed, the script moves on to invoke ["Node
 
 I aggregated these steps from several different server hardening guides and selected the most effective of them to include in this script. The goal is to make something simple enough for newcomers to use while still being practical and saving time for seasoned Linux veterans. I am certainly open to suggestions and would like to keep this easy and practical to use.
 
+# Installation
+
+SSH into your VPS and run this command to clone the Github repository and begin installation:
+
+```bash 
+sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
+```
+
+The script will then walk you through each of the server hardening steps, offering prompts for feedback and other notes along the way. You really can't mess it up. I have tried. If you find a way to do so, please let me know and I'll try to fix it as soon as possible.
+
 If this script helps you out, please contribute some feedback. Donations are also welcome and help permit me to continue to develop this and other projects.
 
 ```
@@ -39,15 +49,6 @@ Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when cre
 
 [Digital Ocean](https://www.digitalocean.com/?refcode=bd6020302487) is also very generous, and give a free credit of $100 to use while testing the site to decide if it is right for you.
 <p align="center"><a href="https://www.digitalocean.com/?refcode=bd6020302487"><img src="http://www.rrpowered.com/wp-content/uploads/2014/06/digital-ocean-694x219.png" height="100"></a></p>
-
-# Installation
-
-SSH into your VPS and run this command to clone the Github repository and begin installation:
-
-```bash && sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
-```
-
-The script will then walk you through each of the server hardening steps, offering prompts for feedback and other notes along the way. You really can't mess it up. I have tried. If you find a way to do so, please let me know and I'll try to fix it as soon as possible.
 
 ## The following is a list of popular scriptlets you may run when logged into your VPS
 ```getinfo
