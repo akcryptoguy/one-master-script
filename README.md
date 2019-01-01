@@ -2,6 +2,14 @@
 
 This VPS Deployment Script script was built in response to the ["One Master Script"](https://heliumcha.in/t/one-master-script-server-hardening-and-masternode-installation/133/2) Governance Proposal on the Helium blockchain and is designed to be run on new VPS deployments to simplify your masternode deployments. It is the perfect fusion between my Server Hardening Script ["Server Hardening Script"](https://github.com/akcryptoguy/vps-harden) and [Nodemaster's VPS Installation Script](https://github.com/masternodes/vps).
 
+# Installation
+
+SSH into your VPS and run this command to clone the Github repository and begin installation:
+
+```bash 
+sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
+```
+
 # About
 
 A lot of good virtual servers get destroyed every year because they aren't properly secured. With large numbers of Linux newcomers entering the space and setting up masternodes I wanted to create a simple way to secure virtual servers and automatically install the masternodes. This does that.
@@ -20,14 +28,6 @@ The following is a list of different security featured baked into "One Master Sc
 When those security features are installed, the script moves on to invoke ["NodeValet"](https://github.com/akcryptoguy/nodevalet) script in a guided installation mode which will ask you for details about the masternodes you'd like to install and installs them for you.
 
 I aggregated these steps from several different server hardening guides and selected the most effective of them to include in this script. The goal is to make something simple enough for newcomers to use while still being practical and saving time for seasoned Linux veterans. I am certainly open to suggestions and would like to keep this easy and practical to use.
-
-# Installation
-
-SSH into your VPS and run this command to clone the Github repository and begin installation:
-
-```bash 
-sudo wget https://raw.githubusercontent.com/akcryptoguy/one-master-script/master/install.sh && sudo bash install.sh
-```
 
 The script will then walk you through each of the server hardening steps, offering prompts for feedback and other notes along the way. You really can't mess it up. I have tried. If you find a way to do so, please let me know and I'll try to fix it as soon as possible.
 
