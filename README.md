@@ -50,7 +50,7 @@ Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when cre
 [Digital Ocean](https://www.digitalocean.com/?refcode=bd6020302487) is also very generous, and give a free credit of $100 to use while testing the site to decide if it is right for you.
 <p align="center"><a href="https://www.digitalocean.com/?refcode=bd6020302487"><img src="http://www.rrpowered.com/wp-content/uploads/2014/06/digital-ocean-694x219.png" height="100"></a></p>
 
-## The following is a list of popular scriptlets you may run when logged into your VPS
+## The following is a list of popular scriptlets you may run on your VPS
 ```
 getinfo
 masternodestatus
