@@ -51,10 +51,12 @@ Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when cre
 <p align="center"><a href="https://www.digitalocean.com/?refcode=bd6020302487"><img src="http://www.rrpowered.com/wp-content/uploads/2014/06/digital-ocean-694x219.png" height="100"></a></p>
 
 ## The following is a list of popular scriptlets you may run when logged into your VPS
-```getinfo
+```
+getinfo
 masternodestatus
 checksync
-killswitch```
+killswitch
+```
 
 ### getinfo
 This scriptlet provides basic information about your masternodes which are installed.  Current block, wallet version, and number of current connections.
