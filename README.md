@@ -93,7 +93,7 @@ This scriptlet will let you know the syncing status of your first installed mast
 ### killswitch
 You shouldn't need to use this one, but if you do, this scriptlet will automatically disable and stop all of your installed masternode instances. This provides the same functionality as running the `sudo systemctl disable helium_n1` and `sudo systemctl stop helium_n1` commands separately. It may be 'undone' by issuing the `activate_masternodes_helium` command.
 
-<p align="center"><img src="/media/killswitch-helium.png" alt="killswitch-helium image"></p>
+<p align="center"><img src="/media/killswitch.png" alt="killswitch image"></p>
 
 ## Help, Issues and Questions
 
