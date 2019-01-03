@@ -46,7 +46,7 @@ At this point you need to copy your RSA public key and paste it into the `author
 sudo nano /etc/ssh/sshd_config
 ```
 
-You will once more do `sudo systemctl restart sshd` to make those changes to sshd_config active and now your server will be secured using your RSA public/private key pair which is infinitely more secure than using a root password to login.
+You will once more need to run `sudo systemctl restart sshd` to make those changes to sshd_config active and now your server will be secured using your RSA public/private key pair which is infinitely more secure than using a root password to login.
 
 ## Referral Links
 
