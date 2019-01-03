@@ -33,7 +33,7 @@ I aggregated these steps from several different server hardening guides and sele
 
 The script will then walk you through each of the server hardening steps, offering prompts for feedback and other notes along the way. You really can't mess it up. I have tried. If you find a way to do so, please let me know and I'll try to fix it as soon as possible.
 
-## Further hardening with RSA Key-pair
+## (Optional) Post-Installation Hardening with RSA Key-pair
 
 In order to secure your server's root login via SSH, you may follow these steps on your VPS:
 ```
