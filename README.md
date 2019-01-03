@@ -35,7 +35,7 @@ The script will then walk you through each of the server hardening steps, offeri
 
 ## Further hardening with RSA Key-pair
 
-In order to secure your server's root login via SSH follow these steps on your VPS
+In order to secure your server's root login via SSH, you may follow these steps on your VPS:
 ```
 mkdir ~/.ssh && touch ~/.ssh/authorized_keys
 sudo chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
