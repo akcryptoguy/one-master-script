@@ -33,6 +33,24 @@ I aggregated these steps from several different server hardening guides and sele
 
 The script will then walk you through each of the server hardening steps, offering prompts for feedback and other notes along the way. You really can't mess it up. I have tried. If you find a way to do so, please let me know and I'll try to fix it as soon as possible.
 
+## Further hardening with RSA Key-pair
+
+In order to secure your server's root login via SSH follow these steps on your VPS
+
+```
+mkdir ~/.ssh && touch ~/.ssh/authorized_keys
+sudo chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+sudo nano ~/.ssh/authorized_keys
+sudo systemctl restart sshd
+```
+You you should make a test connection without closing out of the first SSH window, and make sure that you can use your private key for authentication. If the connection works, it is now safe to edit the sshd_config using the command below to disable password authentication altgoether by changing the line to read “PasswordAuthentication no” and save the file save file.
+
+```
+sudo nano /etc/ssh/sshd_config
+```
+
+You will issue one more `sudo systemctl restart sshd` command and now your server will be secured using your RSA public/private key pair which is infinitely more secure than using a root password to login.
+
 ## Referral Links
 
 Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when creating your VPS account at Vultr to support my projects and build some good karma.<br/>
