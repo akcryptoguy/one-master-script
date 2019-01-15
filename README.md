@@ -23,7 +23,7 @@ The following is a list of different security featured baked into "One Master Sc
 3. INSTALL FAVORED PACKAGES / install my favorite tools & utilities
 4. SSH CONFIG / change SSH port, disable password authentication if SSH keys exist
 5. UFW CONFIG / UFW - add rules, harden, enable firewall
-6. HARDENING / before rules, secure shared memory, etc
+6. HARDENING / before rules, secure shared memory, ddos protection, etc
 7. MOTD EDIT / replace boring banner with customized one and issue.net
 8. RESTART SSHD / apply settings by restarting systemctl
 
