@@ -18,7 +18,7 @@ A lot of good virtual servers get destroyed every year because they aren't prope
 
 The following is a list of different security featured baked into "One Master Script" 
 
-1. CREATE SWAP / if no swap exists, create 1 GB swap
+1. CREATE SWAP / if no swap exists, create 2 GB swap
 2. UPDATE AND UPGRADE / update operating system & pkgs
 3. INSTALL FAVORED PACKAGES / install my favorite tools & utilities
 4. SSH CONFIG / change SSH port, disable password authentication if SSH keys exist
