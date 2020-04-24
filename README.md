@@ -60,7 +60,7 @@ Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when cre
 If this script helps you out, please contribute some feedback. Donations are also welcome and help permit me to continue to develop this and other projects.
 
 ```
-HLM: SeLcm3vNRMkriPu8RrMLCvaN1EWkAZnjb8
+HLM: SjcMD4g7351gGaEAJhLzMst9KCWNYr4fMP
 BTC: 3LbUJVW9WmXPgFStTXSLTBwjpnbVTtt8Ja
 TRON: TLsday62mhM67Sv5G5Z5Ju66TezJuVFbiw
 DGB: DUJ8W8QpmVex87posFPoDYGg5FrYCoMLGq
@@ -113,7 +113,7 @@ Reach out to me at akcryptoguy<img src="https://www.freeiconspng.com/uploads/at-
 
 
 ```
-HLM: SeLcm3vNRMkriPu8RrMLCvaN1EWkAZnjb8
+HLM: SjcMD4g7351gGaEAJhLzMst9KCWNYr4fMP
 BTC: 3LbUJVW9WmXPgFStTXSLTBwjpnbVTtt8Ja
 TRON: TLsday62mhM67Sv5G5Z5Ju66TezJuVFbiw
 DGB: DUJ8W8QpmVex87posFPoDYGg5FrYCoMLGq
